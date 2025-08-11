@@ -6,6 +6,7 @@ export default defineConfig({
   plugins: [tailwindcss(),solidPlugin()],
   server: {
     port: 3000,
+    allowedHosts: https://devserver-main--kimhwa.netlify.app,
   },
   build: {
     target: 'esnext',
